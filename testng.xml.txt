@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking API Test Suite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.restful.booker.utils.TestListener"/>
+    </listeners>
+    
+    <test name="Booking Tests">
+        <classes>
+            <class name="com.restful.booker.tests.BookingTests"/>
+        </classes>
+    </test>
+</suite>
